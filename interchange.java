@@ -25,6 +25,7 @@ public class Main {
    static void interchange(int dim, int[]array){
         for(int index1=0; index1<dim; index1++){
             for (int index2=index1+1; index2<dim; index2++)
+            //checks if there are any values greater than the first one
                 if (array[index1] > array[index2]){
                     //the interchange itself
                     int temp = array[index1];
